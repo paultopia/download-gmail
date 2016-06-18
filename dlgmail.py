@@ -95,3 +95,9 @@ for x in stexts:
 
 # need to write some simple functions to parse everything & c and then I can just 
 # cron this and get text from html with bs4.
+
+# I think this will be a good filter?  found it on SO...
+# from bs4 import BeautifulSoup 
+# def is_html(text):
+#     return bool(BeautifulSoup(html, "html.parser").find())
+
