@@ -101,3 +101,19 @@ for x in stexts:
 # def is_html(text):
 #     return bool(BeautifulSoup(html, "html.parser").find())
 
+# I can also make this take email and password from commandline and just run it on a cron job 
+
+# here's info on how to do this as a cron job, the first link looks best: 
+
+"""
+
+http://alvinalexander.com/mac-os-x/mac-osx-startup-crontab-launchd-jobs
+
+http://www.paullegato.com/blog/launchctl-cron/
+
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html
+
+http://robservatory.com/goodbye-cron-task-hello-launchd-agent/
+
+"""
+
